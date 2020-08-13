@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('users/welcome');
 });
 
-Route::get('sample', 'MyController@model');
+Route::get('/sample/model', 'MyController@model');
 
 Route::get('/users/list','MyController@user_list');
+
+Route::post('/users/trade','MyController@trade');
+
+Route::get('/users/orderConfirm','MyOrderController@orderConfirm');
+
+// Route::post( '/users/trade',function () {
+//     return view('users/trade');
+// });orderConfirm

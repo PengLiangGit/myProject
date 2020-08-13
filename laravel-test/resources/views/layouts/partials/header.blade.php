@@ -48,6 +48,15 @@ $(document).ready(function(){
      });
  
 });
+
+<script type="text/javascript">
+    $('#”button_trade”').on('click', function(){
+        $(this).attr('disabled', 'disabled');
+        alert("submit");
+        $('#trade_form').submit();
+    });
+</script>
+
 </script>    
 <nav class="navbar navbar-default" style="background-color: #FFFFFF;">
   <div class="container-fluid">
