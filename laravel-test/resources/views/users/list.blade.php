@@ -241,5 +241,5 @@
       </form>
     </div>
   </div>
-YYYYYYYYYYYYYYYYYYYYYYYY
+
 @endsection
